@@ -83,10 +83,12 @@ hmtl, body {
 .gameover h1{
   font-size: 16vw;
   font-weight: 900;
+margin-right: 50%;
 }
 .gameover p{
   font-size: 3vw;
   font-weight: 900;
+margin-right: 50%;
 }
 .gameover button{
   padding: 10px;
@@ -96,6 +98,7 @@ hmtl, body {
   border-radius: 10px;
   font-size: 4vw;
   font-weight: 700;
+margin-right: 50%;
   transition: all 0.3s ease;
 }
 .gameover button:active{
