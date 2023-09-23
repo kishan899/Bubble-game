@@ -1,0 +1,111 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+hmtl, body {
+    width: 100%;
+    height: 100%;
+    background-color: lightseagreen;
+}
+
+.panel{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 4vw;
+  padding: 30px;
+  background-color: #01AC93;
+  box-shadow: 0 3px  20px grey;
+}
+.popt{
+  display: flex;
+}
+.popt h1{
+  margin: auto;
+  font-size: 3.5vw;
+  color: white;
+  margin-right: 8px;
+}
+.popt .pbox{
+  display: flex;
+  width: 60%;
+  height: 25px;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 7px;
+  padding: 7px;
+}
+.circles{
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+  padding-top: 30px;
+  justify-content: center;
+  align-items: center;
+  }
+.circle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 70px;
+  background-color: white;
+  box-shadow: inset 2px 2px 15px grey;
+  border: 1px solid grey;
+  border-radius: 50px;
+  color: white;
+  font-size: 3.5vw;
+  font-weight: 800;
+  margin: 8px;
+  padding: 4vw;
+  color: black;
+  transition: all 0.2s ease;
+}
+.circle:active{
+  scale: 0.9;
+}
+.gameover {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 400px;
+  margin-top: 20%;
+  justify-content: center;
+  align-items: center;
+}
+.gameover h1{
+  font-size: 16vw;
+  font-weight: 900;
+}
+.gameover p{
+  font-size: 3vw;
+  font-weight: 900;
+}
+.gameover button{
+  padding: 10px;
+  margin: 10px;
+  background-color: seagreen;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 4vw;
+  font-weight: 700;
+  transition: all 0.3s ease;
+}
+.gameover button:active{
+  scale: 0.9;
+}
+.gameend{
+  display: none;
+}
+.main{
+  display: flex;
+  justify-content: center;
+  margin-top: 15vh;
+  }
