@@ -1,3 +1,13 @@
+const playbtn = document.querySelector(".button");
+const play = document.querySelector(".play");
+const panel = document.querySelector(".panel");
+const main = document.querySelector(".circles");
+playbtn.addEventListener("click", () => {
+  play.style.display = "none";
+  panel.style.display = "flex";
+  main.style.display = "flex";
+  start();
+})
 function start() {
   let timeLeft = 60;
   let bubbleint;
